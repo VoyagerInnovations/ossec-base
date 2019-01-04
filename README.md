@@ -5,7 +5,7 @@
 ```
 rpm -ivh https://updates.atomicorp.com/channels/atomic/centos/7/x86_64/RPMS/atomic-release-1.0-21.el7.art.noarch.rpm
 ```
-- Download OOSSEC
+- Download OSSEC
 ```
 yum install --enablerepo=atomic ossec-hids-server
 ```
