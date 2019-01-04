@@ -2,6 +2,9 @@
 
 ## Instructions
 - Install the atomic repo. Only needed if you don't have /etc/yum.repos.d/atomic.repo yet
+```
+rpm -ivh https://updates.atomicorp.com/channels/atomic/centos/7/x86_64/RPMS/atomic-release-1.0-21.el7.art.noarch.rpm
+```
 - Download OOSSEC
 ```
 yum install --enablerepo=atomic ossec-hids-server
